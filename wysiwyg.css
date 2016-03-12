@@ -1,0 +1,27 @@
+img {
+	width: 35%;
+	height: 35%;
+	display: block;
+	border: solid;
+	padding-bottom: 10px;
+}
+
+.card {
+	width: 70%;
+	height: 375px;
+	padding: 20px;
+	display: block;
+	float: left;
+}
+
+.card:nth-of-type(even){
+	background-color: yellow;
+}
+
+.card:nth-of-type(odd){
+	background-color: lightblue;
+}
+
+.Selected{
+	border: dotted;
+}
